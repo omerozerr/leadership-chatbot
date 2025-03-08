@@ -54,8 +54,6 @@ def synthesize_speech_sdk(text):
         model_id="eleven_multilingual_v2",
         output_format="mp3_44100_128"
     )
-    if hasattr(audio, '__iter__') and not isinstance(audio, bytes):
-        audio = b"".join(audio)
     return audio
 
 def get_embedding(text, model="text-embedding-3-small"):
