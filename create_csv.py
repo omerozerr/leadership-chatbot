@@ -2,10 +2,15 @@
 # Step 1: Process raw transcripts and create CSV of segments
 #############################################
 
+import pandas as pd
+import numpy as np
+from openai import OpenAI
 import os
 import re
 import pandas as pd
-
+from dotenv import load_dotenv
+load_dotenv()
+client = OpenAI()
 transcripts_folder = "transc"
 segments_list = []
 
@@ -50,3 +55,18 @@ df_segments = pd.DataFrame(segments_list)
 os.makedirs("output", exist_ok=True)
 df_segments.to_csv("output/embedded_transcripts.csv", index=False)
 print(f"CSV created with {len(df_segments)} segments.")
+
+#############################################
+# Create embeddings to perform semantic search
+
+
+def get_embedding(text, model="text-embedding-3-small"):
+    text = text.replace("\n", " ")
+    return client.embeddings.create(input = [text], model=model).data[0].embedding
+
+# Load the CSV we just created
+df = pd.read_csv("output/embedded_transcripts.csv")
+
+# Compute embeddings for each segment and save them in a column 'ada_embedding'
+df['ada_embedding'] = df.combined.apply(lambda x: get_embedding(x, model='text-embedding-3-small'))
+df.to_csv('output/embedded_transcripts_with_embeddings.csv', index=False)

@@ -17,15 +17,6 @@ def get_embedding(text, model="text-embedding-3-small"):
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-# Load the CSV we just created
-#df = pd.read_csv("output/embedded_transcripts.csv")
-# For compatibility, we assign the transcript text column to 'combined'
-#df["combined"] = df["combined"]
-
-# Compute embeddings for each segment and save them in a column 'ada_embedding'
-#df['ada_embedding'] = df.combined.apply(lambda x: get_embedding(x, model='text-embedding-3-small'))
-#df.to_csv('output/embedded_transcripts_with_embeddings.csv', index=False)
-
 # Reload the CSV and convert the embeddings from string to np.array
 df = pd.read_csv('output/embedded_transcripts_with_embeddings.csv')
 df['ada_embedding'] = df.ada_embedding.apply(eval).apply(np.array)

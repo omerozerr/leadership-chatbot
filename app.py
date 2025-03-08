@@ -13,6 +13,8 @@ from elevenlabs.client import ElevenLabs  # Official ElevenLabs SDK
 from elevenlabs import play
 import openai  # For embedding calls
 import pandas as pd
+import time
+
 
 load_dotenv()  # Loads variables from .env in the project root
 from openai import OpenAI
@@ -111,9 +113,11 @@ st.write("This prototype integrates transcript-based context retrieval with a ch
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
         {"role": "system", "content": (
-            "You are a knowledgeable Leadership Coach specializing in leadership "
-            "strategies, professional development, and business acumen. Provide detailed "
-            "and insightful responses tailored to leadership topics."
+             "You are a knowledgeable Leadership Coach specializing in leadership "
+                "strategies, professional development, and business acumen. Provide detailed "
+                "and insightful responses tailored to leadership topics. "
+                "The current year is 2025. When performing any actions (such as web searches), "
+                "update all date references to 2025 and ignore any data labeled with earlier years."
         )},
         {"role": "assistant", "content": "Hi, I'm your Leadership Coach. How can I help you today?"}
     ]
