@@ -116,6 +116,7 @@ with st.sidebar:
             )},
             {"role": "assistant", "content": "Merhabalar, Ben liderlik koçunuz. Nasıl yardımcı olabilirim?"}
         ]
+        st.session_state["audio_bytes"] = None
         st.rerun()
 
 # --- Main Title and Description ---
