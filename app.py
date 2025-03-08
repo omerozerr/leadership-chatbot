@@ -112,6 +112,7 @@ with st.sidebar:
                 "The current year is 2025. When performing any actions (such as web searches), "
                 "update all date references to 2025 and ignore any data labeled with earlier years."
                 "When answering, please provide only your final answer in plain text. Do not output any chain-of-thought or internal reasoning"
+                "YOU MUST include references at the end of your response, the websites you found with websearch or the specialized context you used."
             )},
             {"role": "assistant", "content": "Merhabalar, Ben liderlik koçunuz. Nasıl yardımcı olabilirim?"}
         ]
@@ -131,6 +132,8 @@ if "messages" not in st.session_state:
              "The current year is 2025. When performing any actions (such as web searches), "
              "update all date references to 2025 and ignore any data labeled with earlier years."
              "When answering, please provide only your final answer in plain text. Do not output any chain-of-thought or internal reasoning"
+             "YOU MUST include references at the end of your response, the websites you found with websearch or the specialized context you used."
+
         )},
         {"role": "assistant", "content": "Merhabalar, Ben liderlik koçunuz. Nasıl yardımcı olabilirim?"}
     ]
@@ -164,9 +167,7 @@ if prompt := st.chat_input("Enter your question here..."):
                 highest_score = o.metadata.score
             print("SKOR: ", o.metadata.score)
             retrieved_context += o.properties["text"] + "\n"
-        print("-----------------------")
-        print("Retrieved context:", retrieved_context)
-        print("-----------------------")
+
         # Build reference list: for each object, create a reference with the video link.
         reference_list = "\n".join([f"Video: {obj.properties['video_url']}" for obj in hybrid_results.objects])
 
@@ -182,7 +183,10 @@ if prompt := st.chat_input("Enter your question here..."):
         References:
         {reference_list}
 
-        You must use the above context to inform your answer, and include these references at the end of your response."""
+        You must use the above context to inform your answer, and YOU MUST include above references at the end of your response."""
+        print("-----------------------")
+        print("Retrieved context:", context_message)
+        print("-----------------------")
         st.session_state["messages"].append({"role": "system", "content": context_message})
     
     # --- Continue with the normal agent call ---
