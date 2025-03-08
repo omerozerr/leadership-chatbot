@@ -172,11 +172,11 @@ if prompt := st.chat_input("Enter your question here..."):
         reference_list = "\n".join([f"Video: {obj.properties['video_url']}" for obj in hybrid_results.objects])
 
     # --- Define a threshold for using specialized context ---
-    SIMILARITY_THRESHOLD = 0.8  # adjust as needed
+    SIMILARITY_THRESHOLD = 0.75  # adjust as needed
 
     # Only use specialized context if found (you might also check for a minimum score if available)
     if retrieved_context and highest_score >= SIMILARITY_THRESHOLD:
-        context_message = f"""DO NOT MAKE WEB SEARCH. You already have the required information in the specialized transcripts below.
+        context_message = f"""do not web search if it is not necessary. Most likely, you already have the required information in the specialized transcripts below.
         Context from specialized transcripts (hybrid search results):
         {retrieved_context}
 
