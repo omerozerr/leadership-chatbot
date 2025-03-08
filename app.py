@@ -68,8 +68,6 @@ def get_embedding(text, model="text-embedding-3-small"):
     embedding = response.data[0].embedding
     return np.array(embedding, dtype=np.float32)
 
-# --- Define a threshold for using specialized context ---
-SIMILARITY_THRESHOLD = 0.7  # adjust as needed
 
 # --- NEW: Function to generate a refined search query from the user prompt ---
 def generate_search_query(user_prompt):
@@ -116,7 +114,7 @@ with st.sidebar:
                 "update all date references to 2025 and ignore any data labeled with earlier years."
                 "When answering, please provide only your final answer in plain text. Do not output any chain-of-thought or internal reasoning"
             )},
-            {"role": "assistant", "content": "Hi, I'm your Leadership Coach. How can I help you today?"}
+            {"role": "assistant", "content": "Merhabalar, Ben liderlik koçunuz. Nasıl yardımcı olabilirim?"}
         ]
         st.rerun()
 
@@ -135,7 +133,7 @@ if "messages" not in st.session_state:
              "update all date references to 2025 and ignore any data labeled with earlier years."
              "When answering, please provide only your final answer in plain text. Do not output any chain-of-thought or internal reasoning"
         )},
-        {"role": "assistant", "content": "Hi, I'm your Leadership Coach. How can I help you today?"}
+        {"role": "assistant", "content": "Merhabalar, Ben liderlik koçunuz. Nasıl yardımcı olabilirim?"}
     ]
 
 # --- Display Conversation History (excluding system messages) ---
@@ -154,23 +152,30 @@ if prompt := st.chat_input("Enter your question here..."):
     print("Generated search query:", search_query)
     
     # --- NEW STEP 2: Perform hybrid search in Weaviate using the search query ---
-    hybrid_results = weaviate_hybrid_search(search_query, limit =2)
+    hybrid_results = weaviate_hybrid_search(search_query, limit =4)
     # Determine the highest similarity score if available (Weaviate may return a score in metadata)
     # For simplicity, assume if any objects are returned, we use them.
     retrieved_context = ""
     reference_list = ""
+    highest_score = 0
     if hybrid_results:
         # Build context: concatenate the "text" field from each object.
-        retrieved_context = "\n".join([o.properties["text"] for o in hybrid_results.objects])
+        for o in hybrid_results.objects:
+            if o.metadata.score > highest_score:
+                highest_score = o.metadata.score
+            print("SKOR: ", o.metadata.score)
+            retrieved_context += o.properties["text"] + "\n"
         print("-----------------------")
         print("Retrieved context:", retrieved_context)
         print("-----------------------")
         # Build reference list: for each object, create a reference with the video link.
         reference_list = "\n".join([f"Video: {obj.properties['video_url']}" for obj in hybrid_results.objects])
 
-    
+    # --- Define a threshold for using specialized context ---
+    SIMILARITY_THRESHOLD = 0.8  # adjust as needed
+
     # Only use specialized context if found (you might also check for a minimum score if available)
-    if retrieved_context:
+    if retrieved_context and highest_score >= SIMILARITY_THRESHOLD:
         context_message = f"""DO NOT MAKE WEB SEARCH. You already have the required information in the specialized transcripts below.
         Context from specialized transcripts (hybrid search results):
         {retrieved_context}
@@ -179,8 +184,6 @@ if prompt := st.chat_input("Enter your question here..."):
         {reference_list}
 
         You must use the above context to inform your answer, and include these references at the end of your response."""
-        print("context_message:", context_message)
-
         st.session_state["messages"].append({"role": "system", "content": context_message})
     
     # --- Continue with the normal agent call ---

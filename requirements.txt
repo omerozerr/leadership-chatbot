@@ -1,7 +1,7 @@
 streamlit==1.42.2
 langchain==0.3.19
 openai==1.65.2
-duckduckgo_search==7.5.0
+duckduckgo_search==7.5.1
 langchain_community==0.3.18
 dotenv==0.9.9
 pytube==15.0.0
