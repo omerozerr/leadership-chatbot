@@ -102,7 +102,7 @@ def weaviate_hybrid_search(search_query, limit=3):
 # --- Sidebar Setup ---
 with st.sidebar:
     st.markdown("**Leadership Coach Chatbot**")
-    st.markdown("[View the source code](https://github.com/your-repo)")
+    st.markdown("[View the source code](https://github.com/omerozerr/leadership-chatbot)")
     if st.button("Clear Conversation"):
         st.session_state["messages"] = [
             {"role": "system", "content": (
