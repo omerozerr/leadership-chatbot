@@ -12,11 +12,11 @@ from elevenlabs.client import ElevenLabs  # Official ElevenLabs SDK
 from elevenlabs import play
 import openai  # For embedding calls
 import pandas as pd
-import time
-import re
 import weaviate
 import weaviate.classes.query as wq
 from weaviate.classes.init import Auth
+import base64
+import types
 
 load_dotenv()  # Loads variables from .env in the project root
 from openai import OpenAI
@@ -54,6 +54,8 @@ def synthesize_speech_sdk(text):
         model_id="eleven_multilingual_v2",
         output_format="mp3_44100_128"
     )
+    if isinstance(audio, types.GeneratorType):
+        audio = b"".join(list(audio))
     return audio
 
 def get_embedding(text, model="text-embedding-3-small"):
@@ -212,4 +214,11 @@ if prompt := st.chat_input("Enter your question here..."):
 # --- Voice Output Button ---
 if st.session_state.get("audio_bytes"):
     if st.button("Play Voice Output"):
-        play(st.session_state["audio_bytes"])
+        b64_audio = base64.b64encode(st.session_state["audio_bytes"]).decode("utf-8")
+        audio_html = f"""
+        <audio autoplay controls>
+          <source src="data:audio/mp3;base64,{b64_audio}" type="audio/mp3">
+          Your browser does not support the audio element.
+        </audio>
+        """
+        st.markdown(audio_html, unsafe_allow_html=True)
