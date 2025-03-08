@@ -14,6 +14,7 @@ from elevenlabs import play
 import openai  # For embedding calls
 import pandas as pd
 import time
+import re
 
 
 load_dotenv()  # Loads variables from .env in the project root
@@ -38,6 +39,17 @@ voice_id = os.getenv("ELEVENLABS_VOICE_ID")
 if not voice_id:
     st.error("ElevenLabs voice ID not found in environment. Please add it to your .env file.")
     st.stop()
+
+def extract_timestamp(text):
+    """
+    Extract the timestamp from the beginning of a transcript chunk.
+    Expects a header in the format "[HH:MM - HH:MM]:".
+    """
+    match = re.search(r"\[(\d{2}:\d{2} - \d{2}:\d{2})\]", text)
+    if match:
+        return match.group(1)
+    else:
+        return "Unknown timestamp"
 
 def synthesize_speech_sdk(text):
     """
@@ -103,7 +115,7 @@ with st.sidebar:
             )},
             {"role": "assistant", "content": "Hi, I'm your Leadership Coach. How can I help you today?"}
         ]
-        st.experimental_rerun()
+        st.rerun()
 
 # --- Main Title and Description ---
 st.title("Leadership Coach Chatbot")
@@ -138,18 +150,30 @@ if prompt := st.chat_input("Enter your question here..."):
     # Get the top similarity from the results.
     top_similarity = results.similarities.max()
     retrieved_context = ""
+    reference_list = ""
     if top_similarity >= SIMILARITY_THRESHOLD:
         # Concatenate the combined texts of the results as context.
         retrieved_context = "\n".join(results.combined.tolist())
-    print("-----------------------")
-    print(retrieved_context) 
-    print("-----------------------")
+        # Create a reference list using filename and chunk_index
+        reference_list = "\n".join([f"{r.filename} (Part {r.chunk_index})" for r in results.itertuples()])
+        print("------------------------")
+        print(retrieved_context)
+        print("------------------------")
 
     if retrieved_context:
+        # Create a reference list using separate fields for video link and timestamp.
+        reference_list = "\n".join([
+            f"Video: https://www.youtube.com/watch?v={r.filename.replace('_transcript.txt','')}, Zaman aralığı: {extract_timestamp(r.combined)}"
+            for r in results.itertuples()
+        ])
         context_message = (
             f"Context from specialized transcripts:\n{retrieved_context}\n\n"
-            "Use the above context to inform your answer."
+            "References:\n" + reference_list + "\n\n"
+            "Use the above context to inform your answer, and make sure you include your references at the end. It is a must. Do not perform a web search."
         )
+        print("------------------------")
+        print(reference_list)
+        print("------------------------")
         # Insert the context as a system message before the user's query.
         st.session_state["messages"].append({"role": "system", "content": context_message})
     
@@ -180,12 +204,11 @@ if prompt := st.chat_input("Enter your question here..."):
     # Append and display the assistant's response
     st.session_state["messages"].append({"role": "assistant", "content": response})
     st.chat_message("assistant").write(response)
-    
-    # Synthesize the assistant's response into audio and store it in session state
-    audio_bytes = synthesize_speech_sdk(response)
-    st.session_state["audio_bytes"] = audio_bytes
 
 # --- Voice Output Button ---
 if st.session_state.get("audio_bytes"):
     if st.button("Play Voice Output"):
+        # Synthesize the assistant's response into audio and store it in session state
+        audio_bytes = synthesize_speech_sdk(response)
+        st.session_state["audio_bytes"] = audio_bytes
         play(st.session_state["audio_bytes"])
