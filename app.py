@@ -1,6 +1,5 @@
 import os
 import json
-import faiss
 import numpy as np
 import streamlit as st
 import tempfile
