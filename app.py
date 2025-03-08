@@ -15,16 +15,16 @@ import openai  # For embedding calls
 import pandas as pd
 import time
 import re
-
+import weaviate
+import weaviate.classes.query as wq
+from weaviate.classes.init import Auth
 
 load_dotenv()  # Loads variables from .env in the project root
 from openai import OpenAI
 client_openai = OpenAI()
 
 # --- Load environment variables ---
-
 openai.api_key = os.getenv("OPENAI_API_KEY")
-
 if not openai.api_key:
     st.error("OpenAI API key not found in environment. Please add it to your .env file.")
     st.stop()
@@ -40,16 +40,8 @@ if not voice_id:
     st.error("ElevenLabs voice ID not found in environment. Please add it to your .env file.")
     st.stop()
 
-def extract_timestamp(text):
-    """
-    Extract the timestamp from the beginning of a transcript chunk.
-    Expects a header in the format "[HH:MM - HH:MM]:".
-    """
-    match = re.search(r"\[(\d{2}:\d{2} - \d{2}:\d{2})\]", text)
-    if match:
-        return match.group(1)
-    else:
-        return "Unknown timestamp"
+# --- Weaviate Client for Hybrid Search ---
+
 
 def synthesize_speech_sdk(text):
     """
@@ -76,29 +68,39 @@ def get_embedding(text, model="text-embedding-3-small"):
     embedding = response.data[0].embedding
     return np.array(embedding, dtype=np.float32)
 
-def cosine_similarity(a, b):
-    return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
-
-# --- Load the CSV with precomputed embeddings ---
-df = pd.read_csv('output/embedded_transcripts_with_embeddings.csv')
-# The CSV contains an 'ada_embedding' column as a string; convert each to np.array.
-df['ada_embedding'] = df.ada_embedding.apply(eval).apply(np.array)
-
-# --- Search function exactly as your example ---
-def search_videos(df, product_description, n=3, pprint=True):
-    embedding = get_embedding(product_description, model='text-embedding-3-small')
-    df['similarities'] = df.ada_embedding.apply(lambda x: cosine_similarity(x, embedding))
-    res = df.sort_values('similarities', ascending=False).head(n)
-    if pprint:
-        for r in res.itertuples():
-            print(f"{r.filename} (Part {r.chunk_index}) - Similarity: {r.similarities:.4f}")
-            snippet = r.combined.replace("\n", " ") + "..."
-            print(snippet)
-            print()
-    return res
-
 # --- Define a threshold for using specialized context ---
 SIMILARITY_THRESHOLD = 0.7  # adjust as needed
+
+# --- NEW: Function to generate a refined search query from the user prompt ---
+def generate_search_query(user_prompt):
+    search_prompt = f"Extract the key search terms from the following question to retrieve relevant transcript content:\n\n{user_prompt}\n\nSearch Query:"
+    response = client_openai.chat.completions.create(
+        model="gpt-4o-mini",
+        messages=[
+            {"role": "developer", "content": "You are an assistant that extracts concise keywords for search queries."},
+            {"role": "user", "content": search_prompt}
+        ],
+        temperature=0
+    )
+    return response.choices[0].message.content.strip()
+
+# --- NEW: Hybrid search in Weaviate ---
+def weaviate_hybrid_search(search_query, limit=3):
+    # Query the "Transcript" collection in Weaviate using hybrid search.
+    # Get the collection
+    wv_client = weaviate.connect_to_weaviate_cloud(
+    cluster_url=os.getenv("WCD_DEMO_URL"),  # Your Weaviate Cloud URL
+    auth_credentials=Auth.api_key(os.getenv("WCD_DEMO_ADMIN_KEY")),  # Your admin key
+    headers={"X-OpenAI-Api-Key": os.getenv("OPENAI_API_KEY")}
+    )
+    Transcript = wv_client.collections.get("Transcript")
+
+    # Perform query
+    response = Transcript.query.hybrid(
+        query=search_query, limit=limit, return_metadata=wq.MetadataQuery(score=True)
+        )   
+    wv_client.close()
+    return response
 
 # --- Sidebar Setup ---
 with st.sidebar:
@@ -112,6 +114,7 @@ with st.sidebar:
                 "and insightful responses tailored to leadership topics. "
                 "The current year is 2025. When performing any actions (such as web searches), "
                 "update all date references to 2025 and ignore any data labeled with earlier years."
+                "When answering, please provide only your final answer in plain text. Do not output any chain-of-thought or internal reasoning"
             )},
             {"role": "assistant", "content": "Hi, I'm your Leadership Coach. How can I help you today?"}
         ]
@@ -119,17 +122,18 @@ with st.sidebar:
 
 # --- Main Title and Description ---
 st.title("Leadership Coach Chatbot")
-st.write("This prototype integrates transcript-based context retrieval with a chat interface using LangChain, Streamlit, and ElevenLabs for voice synthesis.")
+st.write("This prototype integrates transcript-based context retrieval using Weaviate hybrid search, along with a chat interface using LangChain, Streamlit, and ElevenLabs for voice synthesis.")
 
 # --- Initialize Conversation History if not present ---
 if "messages" not in st.session_state:
     st.session_state["messages"] = [
         {"role": "system", "content": (
              "You are a knowledgeable Leadership Coach specializing in leadership "
-                "strategies, professional development, and business acumen. Provide detailed "
-                "and insightful responses tailored to leadership topics. "
-                "The current year is 2025. When performing any actions (such as web searches), "
-                "update all date references to 2025 and ignore any data labeled with earlier years."
+             "strategies, professional development, and business acumen. Provide detailed "
+             "and insightful responses tailored to leadership topics. "
+             "The current year is 2025. When performing any actions (such as web searches), "
+             "update all date references to 2025 and ignore any data labeled with earlier years."
+             "When answering, please provide only your final answer in plain text. Do not output any chain-of-thought or internal reasoning"
         )},
         {"role": "assistant", "content": "Hi, I'm your Leadership Coach. How can I help you today?"}
     ]
@@ -145,49 +149,49 @@ if prompt := st.chat_input("Enter your question here..."):
     st.session_state["messages"].append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
     
-    # First, search the specialized transcript CSV for context.
-    results = search_videos(df, prompt, n=3, pprint=False)
-    # Get the top similarity from the results.
-    top_similarity = results.similarities.max()
+    # --- NEW STEP 1: Generate a refined search query from the user prompt ---
+    search_query = generate_search_query(prompt)
+    print("Generated search query:", search_query)
+    
+    # --- NEW STEP 2: Perform hybrid search in Weaviate using the search query ---
+    hybrid_results = weaviate_hybrid_search(search_query, limit =2)
+    # Determine the highest similarity score if available (Weaviate may return a score in metadata)
+    # For simplicity, assume if any objects are returned, we use them.
     retrieved_context = ""
     reference_list = ""
-    if top_similarity >= SIMILARITY_THRESHOLD:
-        # Concatenate the combined texts of the results as context.
-        retrieved_context = "\n".join(results.combined.tolist())
-        # Create a reference list using filename and chunk_index
-        reference_list = "\n".join([f"{r.filename} (Part {r.chunk_index})" for r in results.itertuples()])
-        print("------------------------")
-        print(retrieved_context)
-        print("------------------------")
+    if hybrid_results:
+        # Build context: concatenate the "text" field from each object.
+        retrieved_context = "\n".join([o.properties["text"] for o in hybrid_results.objects])
+        print("-----------------------")
+        print("Retrieved context:", retrieved_context)
+        print("-----------------------")
+        # Build reference list: for each object, create a reference with the video link.
+        reference_list = "\n".join([f"Video: {obj.properties['video_url']}" for obj in hybrid_results.objects])
 
+    
+    # Only use specialized context if found (you might also check for a minimum score if available)
     if retrieved_context:
-        # Create a reference list using separate fields for video link and timestamp.
-        reference_list = "\n".join([
-            f"Video: https://www.youtube.com/watch?v={r.filename.replace('_transcript.txt','')}, Zaman aralığı: {extract_timestamp(r.combined)}"
-            for r in results.itertuples()
-        ])
-        context_message = (
-            f"Context from specialized transcripts:\n{retrieved_context}\n\n"
-            "References:\n" + reference_list + "\n\n"
-            "Use the above context to inform your answer, and make sure you include your references at the end. It is a must. Do not perform a web search."
-        )
-        print("------------------------")
-        print(reference_list)
-        print("------------------------")
-        # Insert the context as a system message before the user's query.
+        context_message = f"""DO NOT MAKE WEB SEARCH. You already have the required information in the specialized transcripts below.
+        Context from specialized transcripts (hybrid search results):
+        {retrieved_context}
+
+        References:
+        {reference_list}
+
+        You must use the above context to inform your answer, and include these references at the end of your response."""
+        print("context_message:", context_message)
+
         st.session_state["messages"].append({"role": "system", "content": context_message})
     
-    # Initialize LLM with streaming enabled
+    # --- Continue with the normal agent call ---
     llm = ChatOpenAI(
         model_name="gpt-4o-mini",
         openai_api_key=openai.api_key,
         streaming=True
     )
     
-    # Initialize the DuckDuckGo search tool (optional)
     search_tool = DuckDuckGoSearchRun(name="Search")
     
-    # Initialize the LangChain agent with the search tool
     agent = initialize_agent(
         [search_tool],
         llm,
@@ -195,20 +199,17 @@ if prompt := st.chat_input("Enter your question here..."):
         handle_parsing_errors=True
     )
     
-    # Create a callback handler to stream the agent's internal thoughts (optional)
     callback_handler = StreamlitCallbackHandler(st.container(), expand_new_thoughts=False)
     
-    # Run the agent using the conversation history as context
     response = agent.run(st.session_state["messages"], callbacks=[callback_handler])
     
-    # Append and display the assistant's response
     st.session_state["messages"].append({"role": "assistant", "content": response})
     st.chat_message("assistant").write(response)
+    
+    audio_bytes = synthesize_speech_sdk(response)
+    st.session_state["audio_bytes"] = audio_bytes
 
 # --- Voice Output Button ---
 if st.session_state.get("audio_bytes"):
     if st.button("Play Voice Output"):
-        # Synthesize the assistant's response into audio and store it in session state
-        audio_bytes = synthesize_speech_sdk(response)
-        st.session_state["audio_bytes"] = audio_bytes
         play(st.session_state["audio_bytes"])
