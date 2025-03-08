@@ -1,0 +1,157 @@
+Video URL: https://www.youtube.com/watch?v=rHlebd_URWU
+
+[00:00 - 00:30]:
+İNTRO
+
+[00:30 - 01:00]:
+Kurucu veya başkanlık yaptın. Bir türlü satranç ve voleybola istediğin kadar vakit ayaramadığından şikayet etsin. Galiba voleybolda iyi bir yerdeyken de hevesin pek gerçekleştirememişi sakatlıkla ilgili. İstersen şu anda Akmena son iştigal alanıyla ilgili başlayalım istiyorum. Akmena'da bir dijital dönüşüm çalışmalarına yardımcı oluyorsunuz.
+
+[01:00 - 01:30]:
+Hem de yapay zeka çalışmalarınız var. Hem Akmena özelinde neler yapıyorsunuz hem de tüm sektörü bilip takip ettiğin için Türkiye'deki çalışmaları nasıl değerlendiriyorsun senden bir dinlemek isterim. Sonuçta bu sektörün Suat abisisin. Yani bu sektöre 40 yıl damgasını vurmuş bir kişisin. Akmena'da neler yapıyorsunuz? Bu konuda Türkiye'de yapılan çalışmaları nasıl değerlendiriyorsun? Ben çok teşekkür ederim daveti için.
+
+[01:30 - 02:00]:
+Senin de dediğin gibi üst yöneticilik dönemi çok gerilimli ve stresli bir dönem oluyor. Sisko'da haftalık işleri takip etmek, nettaşta arge yapmak falan hiç kolay değil. Ben onları bırakmaya 2010 yılında karar verdim. Ve 2011 yılında Akmena'yı kurdum. Ama onu kurarken de şöyle bir karar verdik. Hepsinin bir karışımı olsun istedim ben. Bütün yaptığım işlerin. Onun için 3 temel çatı üzerine kurduk.
+
+[02:00 - 02:30]:
+Bir tanesi araştırma geliştirme. Benim içimdeki o heyecan, arge heyecanı bir şeyler geliştirme, özgünlüğünü yapmaya hiç dinmedi. Dinmeyecek de görünüyor. Onun için birinci şeyimiz bizim. Stünnümüz, kolonumuz ARGE'dir. Üniversiteyle beraber çalışıyoruz. TÜBİTAK'tan destek aldık. Yapay zekayı enerjinin optimizasyonu konusunda nasıl kullanırız diye güzel bir proje geliştirdik. Şimdi yapay zeka bir husus öngörü yapıyor.
+
+[02:30 - 03:00]:
+Çok basit. Biz 4 tane öngörü hazırlıyoruz. Bir tanesi yarın sabah bu binanın üzerinde hava nasıl olacak? Biz bunu araştırırken gördük ki böyle bir öngörüde bulunmak da oldukça zormuş meğerse. Hakikaten kimseden doğru bilgi almak kolay değilmiş. Meteoroloji dargiden. Hatta şimdi onların da ne kadar iyi öngörü verdiklerini de hesaplıyoruz. Ki neden onu hesaplıyoruz? Yukarıya koyduğumuz güneş panelde ne kadar kWh elektrik üreteceğiz?
+
+[03:00 - 03:30]:
+Birinci öngörü bu. İkinci öngörü bu kurduğumuz sistemi kullanan kişinin tüketimi ne olacak? Saat kaçta bulaşık makinesi çalışacak? Buzdolabına kadar elektrik çekecek. İkinci öngörümüz de bu. Üçüncü öngörümüz tarifelerle ilgili. Acaba biz bu elektriği satarsak yarın elektrik tarifesi ne olacak? Satabilir miyiz satamaz mıyız? Dördüncüsü de biz elektriği depoladığımız için akıllı depolama diyoruz.
+
+[03:30 - 04:00]:
+Akıllı depolamayı nasıl kullanabiliriz ne yapabiliriz? Şimdi bu dört tane algoritmayı alıp tek bir algoritma indirince de ortaya böyle ertesi sabah ne yapacağınız konusunda size bir bilgi üretmiş oluyoruz. Ve bunu da işte patentine aldık. Patentli bir algoritmamız oldu. Yapay zeka buna karar verip bir tavsiyede bulunuyor size. Bunu uygulamak ya da uygulamamak size bağlı. Örneğin tatile gidiyorsa veya yarın evde olmayacaksa veya yarın iş yerinde daha az elektriği ürün edecekse o zaman bazı tercihleri yapabiliyor.
+
+[04:00 - 04:30]:
+Ancak tabii yapay zeka bunu öğreniyor derin öğrenmeyle. Ve size diyor ki ya evet böyle bir karar verdiniz ama bakın işte çıktınız şu ışık açık kaldı. Gerçekten bunu siz mi bıraktınız yoksa ben bunu kapatayım mı ışığı? gibi öğreniyor. Yani bu machine learning ile makine öğrenme ile yapay zeka birleştirerek bir algoritma geliştirdik. Evet. O tarafta. Çok oldukça etkin bir sistem oldu. Şimdi tabii devlet ARGE konusunda bazıları açısından geç davransa da çok ciddi bir atılım yaptı.
+
+[04:30 - 05:00]:
+Teşvik yaptı. Aynen. Teknokentler konusunda teşvik var. Yani şöyle düşüneyim ben seni herhalde 2008 miydi tanıştığımızda değil mi ondan bu yana bile 12-13 sene olmuş. Anel'de işte bu inovayı satarken, Solectron'u alırken beraberdik. O yıllardaki ben ARGE'yi düşünüyorum.
+
+[05:00 - 05:30]:
+Böyle yarım ağızla konuştuğumuz işte İTÜ'de, OTTÜ'de yapılan bir şeydi. Evet. Şimdi hem yerinde ARGE uygulamaları hem de teknokentlerle korkunç bir noktaya geldik. Hakkını veriyor muyuz yoksa daha çok şey yapılmalı mı? Hilmi'ciğim ben de daha çok şey yapılmalı. Teknokentler oldukça fazla yayıldı. Şunu şu ölçülüyor. Acaba bu teknokentlerden çıkan ürünlerin ihracat kapasitesi nedir?
+
+[05:30 - 06:00]:
+Ne kadar bir yatırım yaptık ve geri dönüş oranları ne oldu gibi bir ölçüm yapılıyor. Şimdi biz ARGE yaparken hep bize klasik bir soru sorulurdu. Ben ARGE'nin direktörüydüm zamanında. Bir dolar ARGE'ye verirsek 20 dolar geri isteriz derlerdi. Yüzde 5'ti ARGE oranları. Şimdi bizim teknokentlerde veya ARGE'de yaptığımız yatırımların geri dönüşü onları bu seviyede değil. Onun için daha fazla iş yapmamız lazım. Daha fazla gençlere destek olmamız lazım ki onların yarattığı ürünler etkileri sahada çok fazla olsun ve sadece Türkiye için değil dünya için ürünler geliştirsinler.
+
+[06:00 - 06:30]:
+Geçenlerde Sanayi Odası Başkanı Erdal Bahçıvan konuk olmuştu. Evet dinledim onu. O da bu konudaki israftan bahsetti. Şimdi burada israfı engellemek için ne yapılabilir? Yani her şeye ARGE yapılmalı mı? Bazı konularda odaklanmalı mı? Şimdi mesela bir Çinlilerin güzel bir deyimi var. Hayi Guvi diyorlar.
+
+[06:30 - 07:00]:
+Hayi ben baktım internetten okyanus demekmiş. Guvi de geri dönmek demekmiş. Deniz kaplumbağaları örneğini veriyorlar. Yani gelsinler uzmanlar ülkelerinde araştırmaya devam etsinler. Şimdi bu örnekten devam edecek olursak deniz kaplumbağaları Dalyan'da gelip yumurta yaptıkları zaman hatırlarsanız hep elektrikler kapatılır kimse sahillere gitmez. Bir kere gittim öyle. Karete karete. Ben de karete karete. Karete karete. Karete karete. Karete karete. Karete karete. Karete karete. Karete karete.
+
+[07:00 - 07:30]:
+Hakikaten müthiş bir doğa olayı. Hiçbir şey bilmeden ne kumda nasıl yüzeceğini bilmeden ne denize gideceğini bilmeden yumurtadan çıkıp heyecanla koşmaya başlıyorlar. Şimdi bizim gençlerimiz de böyle. Bu kuluçka merkezleri var teknoparklarda örneğin. Heyecanla koşmaya başlıyorlar. Biz onlara diyoruz ki bir dakika sen dur. Şu tepeye geçmeden önce bana bir iş planını anlat. Bir dakika dur bakalım sen acaba finansal maliyetlerini doğru hesapladın mı? Gibi onlara biraz engel oluyoruz.
+
+[07:30 - 08:00]:
+Onun için benim burada tavsiyem biraz daha bu israfı önlemek için büyüklere bir şeyler anlatmamız lazım. Yani orada mümkün olduğu kadar küçük küçük minik minik hepsine destek olup ona biz hani biz değil Avrupa'da Amerika'da seri A dedikleri. Hani şu denize eriştirelim arasında işte finansal destek olalım noktasında. Mümkün olduğunca fazla yatırım yapmak. Birazcık da bu hani VC diyoruz venture capital.
+
+[08:00 - 08:30]:
+O da biliyorsun. Girişimsel bir iş. Ama adventure'dan geliyor. Maceradan geliyor. Ama bizim Türkiye'de hiç kimse macerayı sevmiyor. İlla bir tanesini seçecek onu oraya eriştirecek. O da erişemiyor. Erişemeyince ne oraya israf oluyor. Şimdi tabii hem kendi laboratuvarın hem kendi geliştirdiğin ürünün patentin. Ama bir taraftan da birçok şirkete de danışmanlık veya hizmet dolayısıyla yakınsın. Şu anda bu bahsettiğimiz çalışmalarda ve bilhassa da adını çok ettiğimiz işte makine öğrenmesi yapay zeka konusunda.
+
+[08:30 - 09:00]:
+Şirketlerin yaklaşımını nasıl değerlendiriyorsun? Yani böyle kısa bir cevap da istemiyorum açıkçası. İyi kötü gibi. Gerçekten ihtiyacı olanlar bu işe önem veriyorlar mı? Kimlerin gerçekten ihtiyacı olduğunu düşünüyorsun ama fazla bir hareket görmüyorsun? Çok güzel bir soru. Çok ziyaret ediyorum. Hem üniversiteleri geziyorum hem de şirketleri geziyorum. Şunu gözlemliyorum. Herkes bir değişimin geldiğinin farkında.
+
+[09:00 - 09:30]:
+Yani artık deniz bitti, yol bitti. Bir kırılım noktasına geldiğimizin farkında. Hani vaktimiz olsa belki teknolojide de değinebiliriz onlara. Ancak şöyle bir şey oluyor. Geldiğimiz noktada kırılımı aşabilecek kararları almakta çok zorlanıyorlar. Özellikle bu esen sayısal rüzgarların ilk geldiği yer satış pazalama ve ön yüzü oluyor şirketin. Orasının etkinliğini arttıracak projelerle başlayın.
+
+[09:30 - 10:00]:
+Sonrasında yavaş yavaş zorluk derecesini arttırarak devam edin. Örneğin rekabetçinin olduğu arka ofis süreçleri, etkinliğin olduğu ön süreçlerle nasıl beraber çalışacak? Uçtan haca proje yapılabilecek mi? Gibi büyük resmi göremiyorlar. Büyük resmi göremedikleri için de bir kuşku oluyor yatırım yapmakta. Bunu ne seviyede görüyorsun? Yani bu bir patrolaş konusu mu, üst düzey yönetici konusu mu? Ne seviyede bir sıkıntı görüyorsun? Ben bunu genellikle üst düzeyde görüyorum. Üst düzeyde? Üst düzeyde görüyorum.
+
+[10:00 - 10:30]:
+Üst düzey yöneticiler aşağıdan gelen fikirleri, mesajları bir teknoloji değişimi gibi algılıyorlar. Halbuki bir konsept değişimi, bir kavram değişimi olduğunu... İş yapı şekillerini değişiyor. İş yapı şekillerini değişmesi şeklinde algılamıyorlar. Ne zaman ki ben gidip bir sunum yapıyorum ve komple büyük resmi gösteriyorum... Ha o zaman diyor ki evet bu sayısal dönüşümün dört ekseni varmış. Dört eksenden bir tanesi de en önemlisi ortadaki eksen kurumsal yönetişim, kültür, inovasyon ortamı.
+
+[10:30 - 11:00]:
+Peki nereden başlamak lazım? Ben de çünkü yakın bir zamana kadar icra görevi olan bir yöneticiydim. Şimdi bu şekilde yönetirken nereden başlamakta fayda var? Çok güzel bir soru. Ben hep şuradan başlıyorum. Birinci aşamada hani bir uyandırma sunumu. Hani wake up call diyoruz ona. Bir uyanın bakın böyle bir şey geliyor, rüzgar geliyor. Ve artık her zaman yaptığımız işler bitti. Bambaşka şeyler yapacağız. Bir önce bir onunla başlayalım. Arkasından benim yine kendi özgün olarak bulduğu bu halı eğitimi.
+
+[11:00 - 11:30]:
+Herkese eğitim vermek. Herkese eğitim vermek ve farkındalığı yaratmak ki sahip çıksınlar. Tek bir kişinin, tek bir organizasyonun veya üst yönetimin sahip çıkması değil, herkesin sahip çıkması. İkinci aşamada bunu yapmak. Üçüncü aşamada da bir olgunluk testi yapmak. Nerede? Hangi boşluklardayız? Kumsal yönetişimde, iş yönetim süreçlerinde, işletmede veya teknolojide? Bu boşluklardan acaba en iyisi olabilmek için hangi proje üretebiliriz?
+
+[11:30 - 12:00]:
+Evet. Manchester'da elektrik mühendisi. Elektronik mühendisi okudum. Ve arkasından da NetAş'ta çalışmaya başlıyoruz. Adanalısın. Adanalıyım. Adanalısın. Adana'nın meşhur yeni lisesinden. Yeni lisesinden. Ben de uzun dönem Adana'da bulunduğum için benim de iyi bildiğim isimler bunlar. Adana'dan kalkıp Manchester'a giderken neler düşünmüştün? Birisi sana bunu yap git mi dedi, örnek aldığın kimse var mıydı?
+
+[12:00 - 12:30]:
+Açıkçası tamamen tesadüf oldu. 70'li yıllar Türkiye'nin sıkıntılı yıllarıydı. Bir sınav oldu Ankara'da. Sınava tesadüfen ailemizin desteğiyle gelip Ankara otobüsle gidip sınava girdim. Sınavın sonuçları da yaklaşık 3 ay sonra açıklandı. 30 tane kişi yurt dışında okuyabilecek yetkiyi aldık. Benim de en yakın gördüğüm kendime İngiltere olmuştu.
+
+[12:30 - 13:00]:
+Tabii İngiltere'ye gidince birden beri Manchester Üniversitesi'ne giremedim. Önce bir onların üniversitelerinde sınav yok. Ama öncesinde almanız gereken sertifikalar var. Onları aldım. A-level vardı o zaman. A-level'ları aldıktan sonra 5 tane üniversiteye başvurdum. Aklımda elektronik mühendisi hiç yoktu. Ne diyorsun? Hiç yoktu. Peki fizik mi vardı? Fizik de yoktu. Ailem beni gönderirken diyorlardı ki Türkiye'de en önemli şey inşaat olacaksa inşaat mühendisi ol gel. Çünkü Adana'dan ya tekstil giderler.
+
+[13:00 - 13:30]:
+Ya da tekstil ikisiydi. O da Leeds'e gidilirdi. Ha Leeds'e gidilirdi. Manchester Üniversitesi'nin Gümist'teki 30 kişilik sınıfta tekstil bölümünde 30 Türk'tü zaten. İngiliz hoca diyordu ki ben Türkçe anlasam daha iyi olur. Ben İngiltere'ye gidip de bu A-level'ları aldığımda nelerin geliştiğini fark edip tamamen fikrimi değiştirdim. Ama epey de bir fizik de okudun okurken. Şimdi ben o nüversteye girdim de fizik okuyacağımı bilmiyordum açıkçası.
+
+[13:30 - 14:00]:
+Bilsem gitmezdim. Sonra fark ettim ki Manchester'ın fizikte çok önemliymiş. Bor atom orada partil olmuş işte Rotterfot laboratuvarları falan. Dediler ki siz fizik okumadan mezun olamazsınız fizik ve matematik. Ama ne fizik okuduk hem de. Yani o quantum mechanics'in diline kadar formülleri ezberlemek, o Fourier transformları falan çok zor oldu yani. Ve Türkiye'ye döndün. Döndüm evet. Netaş, Nortel. Evet. Orada Arge'de çalıştın. Arge'de çalıştım.
+
+[14:00 - 14:30]:
+Bu bir şans mıydı yoksa oradan dönerken ayarlamış mıydın? Hiçbir şey ayarlamamıştım. Tamamen şans. Birkaç yere müracaat ettim. Manchester'a etroek mühendisliğim deyince Kanada firması seni kaptı. Çok ilginç bir şey oldu. Ben mülakatları yaptıktan sonra genel müdür yardımcımız Roger Lawton, anı da burada. Oğluyla ben sınıf arkadaşıydım, James'le. Manchester'liymiş. Ben bütün mülakatları bitirdim. Demiş ki aşağıya Suat diye birisi gelmiş ben ona görüşmek istiyorum. Ben daha yeni mühendisim o genel müdür yardımcısı. Beni çağırdı odasına.
+
+[14:30 - 15:00]:
+Ben tabii elim ayağım titriyor falan. Öyle sorular sordu ki hiç mi sana cevap veremedim? Ondan sonra eve döndüm. Bana dedi ki annem bile babam ne oldu? Ben buraya girmem şans, imkanı yok. Hiç mi soruya cevap veremedim? Meğerse o da şey öğrenmek istiyormuş. Ben şiştirde neler olduğunu. Onun için zor sorular sormuş bana. Ve kabul aldım. Arkasında Cisco. Evet. Nereden geldi aklına Cisco'ya geçmek? Ya açıkçası bu 90'lı yılların 95'te 2000'li yıllara doğru bu sürekli bağlantılı sistemlerin yok olacağı yavaş yavaş ortaya çıkıyordu.
+
+[15:00 - 15:30]:
+IP dünyasına geçiş ortaya çıkıyordu. Ben de bunu hissettim. Buldular beni. Anladım. Ben de örtüştüm açıkçası kariyer olarak. Yoksa Netaş'ı gerçekten mükemmel seviyordum. Herkese çok iyi ilişkilerimiz vardı ama o kararı kariyerimde vermem çok doğru oldu. Cisco'da tabii ki global olarak sektörünün öncüsü. Öncüyü bir numaraydı. Fakat ondan sonra iki Türk şirketinden çalıştım. Birisi bizim sevgili Emin Hitay'ın teknoloji holdingi.
+
+[15:30 - 16:00]:
+Diğeri de Rızman Hanım'ın anelinin. İkisinin de kulakları çınlasın. Patron şirketleri demek lazım. Çünkü bir girişimcinin enerjisiyle kurulmuş ve bir yere giden. Oralarda yöneticilik yapmayı nasıl kıyaslarsın Nortel ve Cisco'dan sonra? Tabii şimdi çok uzun şirketlerde böyle bir makine gibi çalışıyorsunuz. Bir tornadan geçmiş gibi iş yapıyorsunuz. Ve her şey belli. Süreçler, sistemler, neyi, ne zaman satacağınız belli.
+
+[16:00 - 16:30]:
+Hatta şeyde Cisco derken bu haftalık çalışmayı da içimize 6 yıl kolay kolay sindiremedik. Yani Allah korusun deprem bile olsa haftalık tahminleri vermek zorundasınız. Türk şirketleri biraz farklı tabii. O sistemlere erişmek, o sistemlere çalışmak orada da kolay değil. Ancak her iki çalıştığım yerde de R&D beni her zaman cezbetmişti. Hem teknoloji holdinginde 7-8 tane R&D firması vardı ki büyük çoğunluğu şimdi hep ayrılarak kendi başlarına gittiler. Hem de Anel Grup'ta.
+
+[16:30 - 17:00]:
+Özellikle bu yenilebilir enerjideki yatırımlar çok değerli ve verimli oldu. Onun için oralarda R&D'ye devam ettim. Çok Ulus'lu şirketlerde NetAç'ta R&D'ye vardı ama Cisco biraz daha satış ağırlıklıydı. Ki ben Cisco'da bile Türkiye'de bir R&D merkezi kurmayı başarmıştım. Gerek NetAç'ta gerek Cisco'da uluslararası görevlerinde oldu. Tabii ki Manchester'da yola başlamış olmanın bir avantajı vardır. Bir Türk olarak nasıl hissettin bu uluslararası görevlerde?
+
+[17:00 - 17:30]:
+Manchester'ın çok faydası oldu. O network'ü kurmak ve onların dilini konuşabilmek önemli. O bana çok büyük bir avantaj oldu. İngilizcesi de pek anlaşılmaz derler. Manchester Mankini'nin dura biraz daha. Evet. Bu kariyeri değerlendirdiğinde NetAç, Cisco, Teknoloji Holding, Anel yani profesyonel kariyeri değerlendirdiğinde şurada tereddütüm var. Bu hareketi yapmasaydım dediğin bir kariyer anı var mıdır? Yok, hiçbirisinde yok. Hepsinden çok keyifle çalıştım, zevkle çalıştım.
+
+[17:30 - 18:00]:
+Bugün olsa farklı yapardım dediğin? Kesinlikle yok. Özellikle beraber çalıştığımız o şirket satışlarında, M&A'lerde çok şey öğrendim. Kesinlikle farklı yapmazdım. Hepsi çok güzel deneyimler. Sadece multinational, çok çok uluslararası şirketlerde de kalsaydım böyle bir deneyim kazanamazdım. İTÜ, Hareket Vakfı mıydı? Hareket Vakfı'nın kurucusu. Evet, ETA Vakfı'nın kurucusu. Bilim Vakfı'nda bir tebellik.
+
+[18:00 - 18:30]:
+Arkasından bu Elektronik Sanayicileri Derneği mi vardı? Evet, tesit doğal. Elektronik Sanayicileri Derneği okurucusuydu. Buralardaki çalışmaları nasıl değerlendirirsin? Ben gelen konuklarımı genelde buraları çok aktif görüyorum. Ama herkesin görüşü de aynı olmuyor. Yani çok başarılı oldu şu dernek veya bu sivil toplum kuruluşu deniyor. Başarı nasıl ölçülmeli? Sen nasıl ölçersin orada? Ben şöyle ölçerim. Sivil toplum örgütlere eğer topluma bir şey kattıysa, beğenildiyse, herkes onu takdir ettiyse o zaman başarılı addederim.
+
+[18:30 - 19:00]:
+Mesela her gittiğim ülkede mutlaka bir bilim müzesi gezmişimdir. Çocuklarımı da aynı öğretmişimdir. Bizim kurduğumuz bu deneme bilim merkezi İTÜ'nün içerisinde, daha sonra Şişli Belediyesi ile yapılan bilim merkezi, benim en keyifle çalıştığım sivil toplum örgütten bir tanesi oldu. Çünkü onu yaptıktan sonra öğrencilerin orada gördüğü olaylardan etkilenmeleri, deneylerin içerisinde olmaları,
+
+[19:00 - 19:30]:
+velilerle beraber bir şeyi paylaşmaları çok keyif aldığım bir dönem oldu. Onun için kattığım değere bakarım, beğenildi mi, görüş olarak hoşlarına gitti mi ve bir şeyler öğrendiler mi? Hep sivil toplum örgütte böyle çalışmaya çalıştım. Evet, benim de bu Şişli Belediyesi'nin yapım merkezinde, oradaki bilim merkezi, belirme subaşı, orada yönetimdeyken bizim kulaklar açılmasın insan kaynakları direktörümüz Zeynep Hanım,
+
+[19:30 - 20:00]:
+yakınımızdaki bir ilkokul çocuklarını oraya götürmüştüm. Oraya götürmüştüm değil mi? O çocuklardan ve öğretmenlerden duyduğum ki hayatımızın en güzel günü demiştik. Keşke tüm okullar bunu yapabilse, o imkanı bulabilseler. İyi bir satsanç oyuncusun. Evet. Yarım kalmış bir voleybol kariyeri mi var? Onlar hayatı nasıl etkilemiştir? Şimdi lisedeyken voleybol oynuyordum. Daha sonra Netaş'ta da biz hep iletişim, birlikte olmak açısından takımlar kurup voleybola devam ediyorduk.
+
+[20:00 - 20:30]:
+Ancak aşırı tendonunda bir şey oldu. Sakatlık oldu, o da tenis maçında oldu. Bizim her sene bir şeyimiz vardı. Sağ olsun genel müdürümüz Tanju Argan çok destekliyordu. Netaş olimpiyatlarını. Biz de yöneticiler olarak her zaman çalışanlarla birlikte bir arada olmak istiyorduk. Tabii voleybol maçlarında attıkları servisleri biraz yumuşak atmaları için uyaralarımız olmuyor değildi ama tendonumu kırmam çok şey oldu açıkçası.
+
+[20:30 - 21:00]:
+Ağrıma gitti. Çünkü çok seviyordum sporu. Özellikle kayak yapmayı, tenis oynamayı. Şimdi doktorların bana tavsiye ise artık böyle koşulu sporlar değil de yüzme gibi, yürüyüş gibi, bisiklet gibi sporlar devam ediyor. Yürüyüş olarak bu konuda bir tecrüben var mıdır? Mesela takım sporları yapmış olanların liderlik özellikleri daha çok gelişir gibi bir görüşü var mı? Kesinlikle var. Ama biraz evvelki konuya gelsek satrançın yöneticilik anlamındaki katma değeri çok yüksek olduğunu düşünüyorum.
+
+[21:00 - 21:30]:
+Hem Manchester liginde oynadım hem İstanbul liginde. Yani o taşları orada görüp de orada yokmuşlarmış gibi görmek veya birkaç hamle sonra nereye gideceğini bilebilmek veya hardeşin özelliğini anlayabilmek çok önemli. Yürüyüş de çok faydası oldu bana satranç oynanmanın. Yine itülü bir hanımım var. Aynen öyle. Yine teknoloji alanında çalışan bir olun.
+
+[21:30 - 22:00]:
+Bir kızımız var. Evet onları zorla mı teknoloji alanında yönlendirdin? Aslında kendi veri karar verdiler. İkisi de kendi alanlarında eğitim gördüler ama tabii ki eşimin katma değeri burada benden çokça yüksektir. Her şeyi sağ olsun o halletti. Kızım mesleğinde devam ediyor. Ama oğlum mesleğinde devam etmedi. Oğlum genetik mühendisi olmasına rağmen kendi restoranını açıp şeflik konusunda ilerlemeye devam etti.
+
+[22:00 - 22:30]:
+Çok enteresan. Ben kesinlikle devam dedim. Hiçbir şekilde karışmıyorum dedim. Programa devam edersen 25 sene sonra oğlunu konuk ederim. İnşallah. Sorarım bu tecrübesini. Peki gençlere tavsiyeni nasıl değerlendiyorsun? Ne istiyorsanız onu yapın mı diyorsun? Neler tavsiye ediyorsun? Ben kesinlikle ne istiyorsanız onu yapın diyorum. Çırpınmaya devam edin. Mutlaka bir lirası destek olacaktır. Bu destek bizlerden olabilir, devletten olabilir, başka kuruluşlardan olabilir.
+
+[22:30 - 23:00]:
+Yeni gördüğünüz her şeyi deneyin diyorum. 5000 kişinin izlediği bir blogun var. Sürekli yazıyorsun. Youtube'da videoların var. Bu tür görüşmeye katılıyorsun. Konferanslar veriyorsun. Üniversitelerine gidiyorsun. Önümüzdeki dönem neler yapmayı düşünüyorsun? Bir kitap beklemeli miyiz? Birden fazla kitap beklemeli miyiz? Aklında neler var? Nasıl anılmak istiyorsun diye soruyorum konuklarıma. Bazıları bugüne kadar yaptıklarım yeter diyor.
+
+[23:00 - 23:30]:
+Bazıları bundan sonra şunları yapmaya başlayacağım diyor. Sen nasıl anılmak istiyorsun? Ben kesinlikle bir eser bırakmak istiyorum. Özellikle fizik alanında veya bu yönetim felsefeleri alanında. Kitabı da yazdım açıkçası. Ama henüz daha yayına almadık. Üzerinde çalışıyorum biraz daha. Topluma bir şeyler vermiş. Topluma katma değer sağlamış birisi olarak anılmak isterim her zaman. Ve hiçbir zaman da bırakmak istemiyorum. Sonuna kadar öğrenmeye devam.
+
+[23:30 - 24:00]:
+Ve öğrendiğimi de paylaşmaya devam etmek istiyorum her alanda. Soracağım dedim. Bitmeden sorayım. Kuantum bilgisayarlar. Geçen programlarımızdan birinde. Her ay yüksek buradaydı. Ve şimdiye kadar işlenemeyen verinin bundan sonra kuantum bilgisayarlarla işlenebilir hale geleceği için teknolojik değişimin çok hızlanacağından bahsetti. Ne değişecek? Bütün yazılım dilleri mi değişecek? Kuantum bilgisayarlarda ne gelecek hayatımızda?
+
+[24:00 - 24:30]:
+Birkaç tane konuda Hilmi'ciğim yolun sonuna geldik. Bunlardan bir tanesi de mikro elektronikte artık daha fazla küçük bir şey yapamıyoruz. Bu nanometre dedikleri 10 üzeri eksi 9'lar ölçtükleri seviyelerdeyiz. Onun için başka bir şey yapmak lazım. İşte bu başka bir şey de kuantum bilgisayarı olacak. Ama kuantum bilgisayarı bildiğimiz veri merkezlerindeki raflara takılan kutular gibi olmayacak. Bir kimya laboratuvarı olacak. Bir fizik laboratuvarı olacak kuantum bilgisayar. Ve bu kuantum bilgisayarlar eksi 273 derecede yaşamın bittiği noktada soğuk alanlarda çalıştırılacaklar.
+
+[24:30 - 25:00]:
+Çünkü bunlar kuantum fiziğinde gözlemlenmediği zaman enerji olan, gözlemlendiği zaman maddeye dönüşen elektronlardan oluşacak. Onun için kuantum bilgisayarının çalışma hızı bir anda milyonlarca bilgiyi hiç araştırma yapmadan, hiç üzerinde işlem yapmadan ortaya kalacak ürünler olacaklar. Ne zaman görürüz bunu? Ya şu anda çalışmaya devam ediyor. Bizim nesli şansı var mı? Bence kesin var. Kesin var.
+
+[25:00 - 25:30]:
+Çünkü sahadan büyük bir talep var şu anda. Yetişemiyor bilgisayarların gücü şeklinde. Onun için bu bence çok kısa zamanda gelecek. Geldiği zaman da tüm dünyayı değiştirecek. Çünkü hiçbir yazılım dili de burada çalışmayacak. Çünkü bu tamamen istatistik temelli olacak. Bambaşka bir sistem olacak. Bir kimya laboratuvarı olacak. Daha çok elektronik laboratuvarından çok veya bir fizik laboratuvarı olacak. Suat Paşa. Sektörün dediği gibi Suat abi. Sağ olun. Çok teşekkür ederim. İyi ki geldin.
+
+[25:30 - 26:00]:
+Her zaman seni konuştuğumuzda da, beraber iş yaptığımız dönemde de, sonra seni dışarıdan izlediğimde de söylediğin her şeyden, bugüne kadar bunu böyle anlamamıştım düşünür. Bugün de yine öyle bir gün oldu. Umarım bizi izleyenler de hem öğrenmiştir hem keyifli vakit geçirmişlerdir. Efendim, Sürçül insan ettiysek affola. Tecrübe haftaya burada konuşmaya devam edecek. Sağlıcakla kalın. İzlediğin için teşekkür ederim. İzlediğin için teşekkür ederim. Altyazı M.K.

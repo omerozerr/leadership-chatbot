@@ -1,0 +1,157 @@
+Video URL: https://www.youtube.com/watch?v=qeJArWCpORI
+
+[00:00 - 00:30]:
+İNTRO Merhaba, ben Hilmi Güvenal. Tecrübe konuşuyor da bugün konuğum avukat Mehmet Günd. Hoş geldin. Merhabalar, hoş geldin. Türkiye'nin en büyük hukuk bürolarından birini kurdun ve hala başındasın. Daha iyi yargı derneğinin kurdun ve başkanlığını yapıyorsun.
+
+[00:30 - 01:00]:
+Kurumlaşma anlamında hukuk bürolarına örnek çalışmalarım var. En son yapay zeka ve otomasyon konularında çalışmalarını da duyuyorum. İstersen yapay zeka tarafından başlayalım. Yapay zeka yargıya ne getirecek? Yapay zeka deyince neyi anlıyoruz? Yani yargıçların yerini mi alacak yoksa arka planda yapılan işleri mi hafifletecek, verimlilik mi getirecek? Savcıların yerini mi alacak? Ne işe yarayacak yapay zeka kısa vadede ve uzun vadede? En başına şöyle başlayabiliriz.
+
+[01:00 - 01:30]:
+Hakimlerin, savcıların yaptıkları işlerin aynısını bilgisayar programları da yapıyor. Aynı mantık kurallarına dayalı olarak sonuçlar çıkarıyorlar. Bazen suçlama yapıyorlar, bazen karar veriyorlar onlar hakkında. Bir hakimin bir karar verebilmesi için önüne gelen deliller yani veriler bunları değerlendirmesi gerekiyor. Öbür taraftan değerlendirdiği deliller üzerinde bir kurallar uygulaması gerekiyor. Yani bilgisayar programlarındaki işleler uygulaması gerekiyor.
+
+[01:30 - 02:00]:
+Öyle yapınca bilgisayarın yapacağı şeyle hakimin yapacağı şey mantıksal olarak birbirinin aynı fark. Bilgisayarların işlem yeteneği insanların işlem yeteneğine henüz yetişmedi. Ama günün birisinde bunu mümkün olarak görüyorum ben. Peki şu anda tüm hakimlerin tek bir coğrafya düşünürsek, Türkiye'de veya Fransa'da aynı davada aynı kararları aldığını düşünüyor muyuz?
+
+[02:00 - 02:30]:
+Çünkü bilgisayar öyle bir yöntem isteyecek. Şunlar gerçekleştiyse karar şu olmalı diyecek. O zaman da hakimlerin kararlarından farklı kararlar çıkacak. Çünkü okuyorum Amerika'da böyle paralel olarak çalıştırdıkları algoritmalar hakimlerle çoğunlukla aynı karar veriyorlar. Ama bazıları da farklı oluyor. Tabii kuralları nasıl anlamlandırdıklarında ne kadar net olabilirlerse, önlerine gelen veriler ne kadar birbirinin aynı olursa sonuçta nedensellik kuralı gereğince aynı sonuçlara varması gerekiyor.
+
+[02:30 - 03:00]:
+Bu konuda bilgisayar programları daha isabetli sonuçlar verebilirler. Çünkü insandaki unutma, atlama, bazı şeyleri görmeme gibi şeyler... Duygusallık. Duygusallığın da aslında bir mantıki temeli olduğunu düşünüyorum ben. Bilgisayar programları da duygusal olabilirler. Belli işlem hızına ulaştıkları zaman bu mümkün olabilir. Şöyle bir soru soracağım ben size. Acaba robotlar karar verir hale gelebilirler mi? Evet gelebilirler. Geldikleri zaman idam kararı verebilirler mi?
+
+[03:00 - 03:30]:
+Onu vermezse o kadar çok vermiyoruz idam kararı. Zaten idam da olmasın da zaten. Ama birçok karar ağırlaştıkça sorgulanacaktır herhalde. Bunu robot verdi, hakim olsa daha hafif bir karar verirdi diye sorgulanacak. Çünkü daima bir alternatif olacak. Evet aslında bunu sorgulanacak. Şu anda hakimin alternatifi yok. Yani bir tek Amerika'da işte gördüğümüz filmlerde jüri var. Birisi diyebilir ki ya bizde de jüri olsa karar farklı çıkabilirdi diyebilir. Ama onun dışında alternatif yok şu anda yargı sistemine.
+
+[03:30 - 04:00]:
+Ama bunu kabul etmemiz lazım ki örneğin otonom araçlar bu kararı veriyor olacaklar. Örneğin şu anda batıda tartışılmamız. Sürücüsüz arabalar. Tabii sürücüsüz arabalar, araçlar. Şunu tartışıyorlar. Biz bu araçların algoritmalarına hangi etik kuralları yerleştirmeliyiz de tartışıyorlar. Örneğin bir araç var gidiyor. Kaza kaçınılmaz. Sol tarafta gençler var, sağ tarafta yaşlılar var. Ya da biraz ileride siyahlar var. Bu tarafta da beyazlar var.
+
+[04:00 - 04:30]:
+Kaza kaçınılmaz. Direksiyonu bir tarafa kıracak ama ne tarafa kıracak? Ölüme ya da yaralamaya neden olacak. Bunu nasıl yapacağı konusunu o bilgisayar programının içerisine koyuyorlar. Yani aslında bilgisayar programı kimin öleceğine, kimin kalacağına karar veriyor olabilecek. Onun için bizim şimdiden bu meseleleri düşünüp hem etik, ahlaki temellerde çözmemiz gerekiyor. Hem de teknolojik olarak bunlara hazırlıklı olmamız lazım. Yani bilgisayar programlar insanların yerine geçebilir.
+
+[04:30 - 05:00]:
+İnsanlar yaptıkları şeyin altında kalabilirler. Verimlilik tarafında neler gelmesini beklemeliyiz. Çünkü bilhassa Türkiye'de avukatlara verilen yetkiler çok geniş. Bir yandan da sorumluluklar da çok geniş. Belirli işlem türlerini sadece ilgili avukat yapabiliyor. Esasında o işlem türünü yapmak için öyle 4 yıllık fakültesi okuyup baro stajı falan yapmaya da gerek yok yani. Çok da önemli bir işlem türü değil.
+
+[05:00 - 05:30]:
+Şimdi bütün bu işlemlerin otomasyona geçmesi mümkün olabilir mi? Hepsi mümkün olabilir. Hukuk tahsili yapmış olanların yapması gereken işlemler de başkalarının yapması gereken işlemler gibi. Hukuk tahsili yapmış olanlara bazı tekeller tanınıyor. Çünkü hukuk konusu hassas bir konudur. Toplumu bir yarıda tutan kurallar bütünü. Onun için avukatlara tekeller tanınması doğru. Hakim olanların da hukuk mezunu olması gerektiği, iyi hukuk eğitimi alması gerektiği konusunda kurallarımız net.
+
+[05:30 - 06:00]:
+Bunların tartışılması bence şu anda erken. Fakat hakimlerin ya da avukatların yapacakları işleri bilgisayarlara verebilir miyiz sorusunda evet verebiliriz. Mesela bir hakimin yapacağı işler nelerden oluşturuyor dersek bir, bu konuyla ilgili olarak verileri yani delilleri değerlendirecek. İki, bununla ilgili mevzuata bakacak, kanuna bakacak, yönetmeliğe bakacak. Doktrinde, literatürde bu konularda neler düşünülüyor onları bulacak.
+
+[06:00 - 06:30]:
+İştahatları bulacak bunlar nasıl uygulanıyor diye. Onlara göre de kendi yolunu çizecek bir karar verecek. Şimdi bu işlemlerin en sondaki karar verme aşamasına gelmeden önceki kısmı kademeli olarak bilgisayarlara emanet edilebilir. Yani mesela ben kütümaneye gidip iki saat araştırma yapıp da bulacağım mevzuatı bir robot bana beş dakikada bulabilir. Bunları yaptırdığımız zaman şöyle bir verimlilik ortaya çıkıyor.
+
+[06:30 - 07:00]:
+Mesela Yargıtay'da karar verilmeyi bekleyin bir milyondan fazla dosya var. Geçen Yargıtay Başkanı açıkladı. Oradaki hakimlerin bunları inceleyip bir karar vermesi gerekiyor ama kararı verebilmek için biraz önce saydığım işlemleri yapacaklar. Bu işlemlerin ne kadar çoğunu robotlara yaptırabilirsek o kadar etki yaratmış oluyoruz. Mesela bana göre şu anda yüzde kırkını robotlara yaptırmak kolaylıkla mümkün. Yüzde kırkını robotlara yaptırırsak bir milyon davadan yüzde kırkını yani dört yüz bin tanesini çözmüş gibi bir etki yaratabiliriz.
+
+[07:00 - 07:30]:
+Bunu geniştirerek artırmak lazım. Bunu yüzde yetmiş seksene çıkardığımız zaman o zaman bizim yargıda yaptığımız işlerin kalitesi de yukarıya gider. Hızlanır o derecede. Öyle olumlu verimlilik etkileri olur. Kurduğun firma ticari, uluslararası genelde iş konularına bakan bir firma. Ve yüz yetmiş kişiden oluşan İstanbul, Ankara, İzmir'de biri olan bir firma.
+
+[07:30 - 08:00]:
+Bunun kurumsallaşmasından bahsediyorsun. Hatta Deloitte'un ilgi yönetilen şirketler listesinde bir hukuk firmasını görünce ben de biraz şaşırdım. Bu şahsi bir iş değil midir sonuçta? Benim şahsi işim evet kanun benim şirket kurmamı engelliyor. Şirket kurmamı engelliyor. Hatta şehirde bir büro açmak zorundayım. Bir baroya kaydolmak zorundayım. Türkiye'nin her tarafında iş yapabilirim.
+
+[08:00 - 08:30]:
+Fakat İzmir'de, Ankara'da çalışma bürolarım var. Oradaki işlerimi de yönetmek zorundayım. Bu kadar büyüklüğe ulaşmış olması aslında Türkiye'deki ekonominin gerekliliği. Yani ben müvekkillerime hizmet verebilmek için, iyi hizmet verebilmek için böyle bir kadroya ulaşmam gerekiyor. Kadro büyüdüğü zamansa bunu iyi yönetmem gerekiyor. İyi yönetmenin yolu kurallara bağlı yönetim. Kurallara bağlı yönetimin adı bana göre kurumlaşmanın açıklaması.
+
+[08:30 - 09:00]:
+Yani kurumlaşmak, isterseniz şirket olun, isterseniz olmayın ama birden fazla insanı bir araya bulundurduğunuzda yaptığınız işleri önceden belirlenmiş kurallara bağlı olarak yürütmektir. Genellikle kurumlaşmayı şirketleşmeyle karıştırırlar. Kurumlaşmak için şirketleşmek şart değildir. Ama şirketleşmek kurumlaşma konusunda çok hazır çözümler verir. Mesela muhasebeniz bilanço esasına göre olur. Örneğin kararları aldığınız bir genel kurulunuz olur, bir yönetim kurulunuz olur, bir denetim kurulunuz olur.
+
+[09:00 - 09:30]:
+Bunlar da belli kurallar üzerine yürürler. Bir kişiye bağlı değildir şirketler. Mesela avukatlarda ben çok gördüm. Çok böyle önde gelen avukatlık büroları çıktı, siz de gördünüz piyasada. Sonra avukat öldü, avukatlık bürosu da kayboldu. Şirketleşmenin olduğu yerlerde kurumlaşmayı sürdürme imkanına sahip oluyorsunuz. O da toplum için kalıcı avukatlık, kalıcı gelenekler ve verimlilik anlamına geliyor.
+
+[09:30 - 10:00]:
+Peki markalaşmak da bu mu demek? Çünkü avukatlık firmalar, Amerika'da görüyoruz, reklamlar veriyorlar. Avukatlık firmaları. Türkiye'de bir reklam yasağı var. Birçok ülkede reklam yasağı var. Buna rağmen markalaşmak nasıl mümkün? Markalaşmak kaçınılmaz. Marka şey demektir, mal veya hizmetin kökenini belirtiyor. Kim veriyor bu hizmeti diye bir ayırma aracı. Yani bir avukat diğerlerinden farklılaştığı zaman markalaşıyor. Benim şimdi ismim marka gibi bir değer görüyor.
+
+[10:00 - 10:30]:
+Başkaları da öyle. Marka olunca marka şunu sağlıyor, onun üzerine yatırım yapıyorsunuz. Ayrı dedikliği ve kaliteyi artırmaya çalışıyorsunuz. Disiplin kurulu kararları var Barolar Birliği'nin. Avukatlar kendilerini çalışmalarıyla gösterebilirler. Mesela makale yazar, işi yapar, iş hakkında konuşulur. Fakat ben avukatım şu tür işleri yaparım diye reklam verirseniz onlara elimizdeki sistem engel oluyor. Bu engel olunca avukatlar arasında, avukatlık tek elinden doğan menfaatin paylaşması konusundaki kurallar,
+
+[10:30 - 11:00]:
+biz oraya doğru odaklanıyoruz. Oysa esas odak vatandaşa, topluma yarattığımız fayda ve vatandaşın bu faydaya erişebilmesi noktasında olması lazım. Daha iyi yargı derneğini kurdun. Neden? Ben 1990'lı yıllarda Polipek'in kayımlarının avukatlarını üstlendim. Piyasadığını o zaman tanıdı. Ben bu 10 yılı geçen çalışmalarımın sonucunda şunu gördüm ki,
+
+[11:00 - 11:30]:
+Türkiye'de yapılması gereken çok iş var. Yargının daha iyi hizmet verebilmesi için, topluma katkı yapıyor olması için, toplumdaki bozuşmayı önlüyor ve iyileştirici yönde etki gösterebilmesi için çok yapılması gereken şey var. İlk çıkış noktam şuydu. Bir şey tespit ettim ve dedim ki bu bende kalamaz. Tespit ettiğim şey de şu, bir uyuşmazlık çıktığında bunu mahkemeye götürüyoruz. Fakat hakimin uyuşmazlığı en iyi çözmesi için gerekli olan bilgiyi vermiyoruz.
+
+[11:30 - 12:00]:
+Yani söylediklerimizin yalan olmasını savunma hakkı olarak görüyor. Ondan sonra çözümle ilgili olan delilleri göstermiyoruz. Yani tam ve dürüst olarak açıklamıyoruz bunları. Açıklamadığımız zaman da hakimine doğru karar bekliyoruz. Tabii ki doğru olamaz. Ve bir kere yargıyla böyle karşılaştığımız zaman, o aleyhimize çalıştığı için öbür türlü davranmaya başlarız.
+
+[12:00 - 12:30]:
+Yalan söylemeye başlıyoruz. Şimdi mahkemeye yalan söylemeden suç olduğu ülkelerde, yargı çok ileride bu genellikle Anglo-Sakson ülkeleri, bizim ülkemizde ise savunma hakkı olarak görülüyor. Ve bu da toplumda bozucu bir şeye neden oluyor. Hem de verimsizliğe neden oluyor. Ben bu yanlışı düzeltmek için yola çıkmıştım. Sonra yola çıktığımda paydaşlar aradım. O paydaşlarım bana dediler ki, ya yargı sorunu sadece bu değil. Yani buna da yardımcı olalım da ama diğer konuları da çözelim. Öyle olunca, işte daha yargı derneği kuruldu daha önce inisiyatifte.
+
+[12:30 - 13:00]:
+Bundan sonraki oyun planı nedir? Yani ne yapmayı düşünüyorsunuz? Ben yaptığım her şeyin ekonomik yararını göstermem gerektiğine inanıyorum. Birincisi, temel sağlam bir fikir olması gerekiyor elbette. Yani yeni, özgün bir fikir geliştirdiğimi düşünüyorum. Bu özgün fikirin ekonomik yararını, toplumsal yararını herkese göstermek istiyorum. İkincisi, bunu gösterdiğim zaman farkındalık yaratıp,
+
+[13:00 - 13:30]:
+kendime yol arkadaşları, paydaşlar bulmak istiyorum. Bu paydaşlarımla birlikte çalışıp, o getirdiğim öneriyi onlar da benimsiyorlar ise, sonra bunu yetkili makamlara anlatmak istiyorum. Sonra o anlattığım makamlardan bu faydayı, en başta belirlediğim faydayı elde edecek bir sonuç istiyorum. Ben şöyle inanıyorum, Türkiye 82 milyonda, şimdi olması gereken yerin çok gerisinde. Bunu yapmak çok kolay. Türkiye'nin dünyanın 8 tane büyük ekonomileri arasında yer almasını arzu ediyorum.
+
+[13:30 - 14:00]:
+Bu ekonomik faydanın ancak hukuk ve yargı yoluyla mümkün olabileceğine inanıyorum. Bu yönde faydayı göstererek ilerlersek olacağına da inanıyorum. Evet, geri gidersek, Konya, Bozkır, Dere köyünde doğdun. Bununla ilgili bir kitap da yazdın, Bozkır'dan dünyaya avukat olmak diye. Şimdi böyle kalı bir kitap ama çabuk okunuyor. Ben okudum.
+
+[14:00 - 14:30]:
+Çok tabii bir ilk kitap özelliği taşıyor. İçinde birçok şey var. Yani hem özgeçmiş, hem avukatlara, genç avukatlara tavsiyeler, hem belirli kamuya yansımış dosyalar hakkında biraz perde arkası bilgileri, bence her avukatın okumasında fayda olan bir kitap. Bir kitabın daha var. Türkiye'nin Orta Demokrasi Sorunları ve Çözüm Yolu diye. Bunu da şöyle kameraya göstereyim, gösterebiliyorsam. Evet, bunu da bilhassa daha iyi yargı derneği çalışmalarından sonra oluşturduğunu düşünüyorum.
+
+[14:30 - 15:00]:
+Şimdi tabii hikayen ilginç, biraz da trajik. Konya'da genç yaşta babayı ve genç kardeşi kaybediyorsun. Nasıl etkiledi bu çocukluk yılları tüm hayatını ve gelişimini? Önce şunu söylemek istiyorum, kitabımın adı Avukat Olmak ama aslında Bozkır'dan zincirleri kırıp çıkmanın hikayesi,
+
+[15:00 - 15:30]:
+Anadolu çocuklarının hepsinin hikayesi. Ben yazabilecek durumdaydım, eğitimim itibariyle buna sahiptim. Bunu yazamayan ama benim gibi, benden daha fazlasını gerçekleştirmiş çok Anadolu çocukları var. Anadolu'nun bir hikayesi olarak okunmasını istiyorum. Sadece avukatların değil, Anadolu'dan nasıl başarılıyor konusunda fikir almak isteyen herkesin okumasını istiyor. İkinci kitabım, bir Anadolu çocuğu, memleketini seven, memleketinin bugünlere getirdiği bir Anadolu çocuğu,
+
+[15:30 - 16:00]:
+kendi memleketindeki sorunları nasıl görüyor, nasıl çözeceğini düşünüyor, onu anlatıyor. İlgi duyarlar okurlarsa da çok sevinirim. Benim birinci şeyim şu, ben baba nedir bilmiyorum. Çünkü babam ben iki buçuk yaşındayken vefat etmiş. Onunla birkaç tane anım var. Onları bir yere saklamışım, iyi saklamışım ki onları hatırlıyorum. Birincisi gülerken yüzü ta buraya kadar geliyor, onu hatırlıyorum. Allah rahmet eylesin. İkincisi hastaneden geldiği zaman işte sarılmak istemiştim, o zaman sarılamadım, onu hatırlıyorum.
+
+[16:00 - 16:30]:
+Bir de ölüm döşeğindeki halini hatırlıyorum, onu hatırlıyorum. Şimdi babamın ölümünden sonra, Anadolu'da o zamanlar tüberkülazdan ölüm çokmuş. Benimkisi de onlardan bir tanesi hikaye. Babanın ölümünden sonra başsağlığına gelenler, annemin başsağlığı dilerlerken, annem kadın haliyle bir kenarda duruyor evin sahibi olduğunda, erkeği yok. Başka erkekler gelince amcalar falan geliyorlar.
+
+[16:30 - 17:00]:
+Esas bütün mücadelem şeyden çıktı, ya ben annemin ağlamasını durdurmak istiyorum. O zaman bizim işte delik diyoruz, pencere şeyleri. Oraya oturduğumda ayağım aşağıya ulaşmıyordu. Yani 20 santime falan ancak şey oluyor. O zaman demiş bana, hatırlıyorum o ortamında, çok iyi hatırlıyorum. Ya ana ağlama, hayatlarımı yere basınca sana bakarım falan diye bir şey söylemiştim. Bütün hayatım bu sorumluluk şeyiyle geçti. Fakat şunu söylemek istiyorum, annemin ellerinden öperim şimdi inşallah izliyordur programda.
+
+[17:00 - 17:30]:
+Hiç okula gitmedi. Okuma yazmayı kursla öğrendi. Fakat onun sahip olduğu Anadolu kültürü bize şunu öğretti. Onurunla yaşayacaksın ve çalışacaksın. Hiç yalan söylemeyeceksin bilmem ne. Bunlar Anadolu kültüründe çok güçlü olarak var. Onun bize vermiş olduğu değerler beni buraya taşıdı. Tabii ki memleketin verdiği imkanlar onları değerlendirerek bugünlere gelebildik. Evet, önce öğretmen olmak üzere Çanakkale'ye gidiyorsun.
+
+[17:30 - 18:00]:
+Arkasından hukuk fakültesini kazanıp İstanbul'a geliyorsun. Avukat olmak nereden geldi aklına? Ya ben aslında kısa yoldan iyi bir mesleğe kavuşmak istiyordum. Öğretmenlik benim için öyleydi. İşte devlet kadrosuna giriyorsun. Çabucak da maaş alıyorsun. Onun için parasız yatılı sınavlarında öğretmen okulunu kazandım. Çanakkale'de okurken statüyü değiştirdiler. Dediler ki eğitim ensüsüne gitmek zorundasın. Öğretmen olmak istiyorsan. Ama onun için de üniversite sınavlarına gireceksin. Oradaki hocalarım bize çok yardımcı oldular.
+
+[18:00 - 18:30]:
+Bir kurs gibi son seneyi öyle yaptılar. Biz de üniversite sınavına girdik. Şöyle bir şey dedik. Giriyorsak madem o zaman başka şeyler de seçelim. Ben de kader böyle avukat olmak istememiştim ama sonra avukatlıkla buluşturdum. Evet. Önce başkalarının yanında çalıştın. Tanıdıklarınızın yanında çalıştın. Sonra kendi büronu kurdun. Ortaklığı kurmuştun. Sonra ayırdın. Ve kısa zamanda da büyüttün. Kitabında enteresan konular var. Bir tanesi bu Polipek Asil Nadir davasında gündeme gelen bir milliyetçilik konusu var.
+
+[18:30 - 19:00]:
+İlgine AIG Galatasaraylı davasına gelen ailece Galatasaraylısınız. Ama Galatasaray'a dava eden AIG'nin avukatı oluyorsun. Bu avukatın milliyetçiliği olmaz. Avukatın takımı olmaz. Bu konuda ne düşünüyorsun? Yani çok doğru söylüyorsunuz. Benim de ilkem odur. Bir avukatın dini, imanı, milliyeti, hak, hukuk, adalettir. Her şeyden önce bu gelir. Yani bu şimdi çeşitli sebeplerle duygularımızın öne geçtiği durumlar olabiliyor.
+
+[19:00 - 19:30]:
+Bunu mutlaka bir avukatın yenmesi lazım. Avukatın meselelere aklıyla bakması lazım. Yani diyelim ki hunhar bir cinayet var. Ben bu cinayet davasındaki savunmayı üstlenen insanın, avukatın çok önemli bir rol üstlendiğini düşünüyorum. Çünkü şunu demesi lazım topluma. Ben sizi temsil ediyorum. Bu toplum vahşi bir toplum değil. Bir cani de olsa onu linç etmiyoruz, yargılıyoruz diyebilmesi lazım.
+
+[19:30 - 20:00]:
+Buna böyle bakmak lazım. Eğer toplumda hukuku hakim kılabiliyorsa o zaman o avukat kendi milletine, kendi takımına en büyük faydayı gösteriyor. Ben Galatasaray'ın genel kuruluna gitmiştim. EYC adına. O genel kurulda sabahtan akşama kadar bir mücadele etmiştik. Bir denetçi seçtirmek için 12 bin aday mı hazırlamıştınız? Hazırlamıştım. Çok güzel olmuştu. Çünkü birinci genel kuruldaki oyun vardı. Çünkü Galatasaray genel kurulunda birçok üstad, popçular var.
+
+[20:00 - 20:30]:
+Tabii rahmetli oldu. Bir hukukçu ismini söylemek istemiyorum ama öyle bir yol bulmuşlar onlar. Bu yanlış. Ben de o yanlışı yenecek bir yöntemi geliştirdim. Yanlış dediğiniz başka şeyler var. Avukatların temsil ettikleri şirketlerin yönetim kurullarında yer almasını yanlış buluyorsunuz. Kesinlikle. Kesinlikle. Avukatlıkta asil ruhuyla, yani bir işin tarafı olanın ruhuyla akıl verenin rolü ve ruhi hali çok farklı.
+
+[20:30 - 21:00]:
+Şimdi yönetim kurulu üyeliği kabul eden avukat şeyden vazgeçiyor. Akıl veren rolünden vazgeçiyor, olayların içerisine geliyor. Yönetim kurulu üyesi neticede risk alır. Avukatın risk alması gerekmiyor. Avukatın demesi lazım ki risk şöyle alabilirsin, böyle alabilirsin. Sonuçları bu olur. Olması lazım. Şirketlerin ve kamunun da bordrol avukatlarla davalarını süzülmelerine de karşısın. Karşı. Dış bürolarla çalışmalı diyorsun. Tabii sana iş hacmi yaratacak bu. Onun dışında niye karşısın? Yok ben iş için yapmıyorum.
+
+[21:00 - 21:30]:
+Meslemin geri kalan kısmında mesleğimi geliştirmek istiyorum. Avukatlık mesleğini ve yargıyı. İşim zaten var şükür. Fakat ben şunun için karşıyım. Yani bizim mahkemelerde avukatların bağımsızca hareket edebildiği, müvekillerine hesap verme meselesini mesleki ilkeler içerisine bırakabildiği bir ortamda olmasını istiyorum. Avukat şirketin bordrosunda olursa onun işine son verebilecek olan genel müdürün sözlerine karşı çıkamaz. Genel müdür farklı düşünür, avukat farklı düşünür.
+
+[21:30 - 22:00]:
+O zaman avukatlık yetkinliği, avukatın yargının kurucu unsuru olduğu, avukatın adaleti gerçekleştiren unsurlardan birisi olduğu kısmını hemen kolaylıkla kaybedebiliriz. Ben onun için mahkemelerde iş yapacak olan avukatların şirketlerde görev yapan hukukçulardan farklı olması gerektiğini düşünüyorum. Bilir kişilik meselesinin de çok yanlış çalıştığını söylüyorsun. Hiç sormayın. Bence yargının en çirkin tarafı bilir kişilikti. Eğer bir davada aleni yargılama yapılması lazım, her işlemin tarafların ve izleyicilerin huzurunda olması lazım.
+
+[22:00 - 22:30]:
+Bilir kişiye verdiğiniz zaman dosya bir tünelere giriyor. Bilir kişi raporları nasıl oluyor, hangi şartlarda hazırlanıyor bilemiyorsunuz. Sonra bilir kişi bir tarafın iddiaya da savunmasını kanıtlamak için yararlanacağı bir delil. Hakim iki tarafın da yerine geçiyor. Onların adına bilir kişiye soru soruyor. Hakim iki tarafın da avukatı değil ki. Davacının da değil, davalının da değil.
+
+[22:30 - 23:00]:
+Onun için bizdeki sistemde bilir kişileri hakim görevlendirsin. Hakimin güvendikleri olsun falan diye böyle gidiyor. Bu sistem bilir kişilikteki yozlaşmayı çok yargıya taşıyor. Yani kibar olmak zorundayım burada. Birkaç istisna dışında bilir kişilerin hiçbirisinin işini düzgün yapabildiğini sanmıyorum. Vay vay vay. Ve dürüst olabildiklerini de sanmıyorum. Bozuşmaya çok açık olan bir sistem. Bu şu andaki mevcut sisteme karşı raporlarımızı falan yayınlamıştık biz daha iyi yargı denerinde.
+
+[23:00 - 23:30]:
+Hatta bir kitap da yazdık bu konuda. Bu mevcut uygulamanın kaldırılması gerektiğini düşünüyorum bir an önce. Sadece mahkeme bilir kişilik. Yapanların sicilini tutsun yeter. Bundan sonra nasıl anılmak istiyorsun? Yargıyı, adaleti bu mesleği geliştiren kişi olarak mı? Bozkır'dan gelip İstanbul'da Türkiye'nin en büyük birolarından biri vergi listelerinde ilk yüzdesin. Nasıl anılmak istiyorsun? Çalışınca kazanır.
+
+[23:30 - 24:00]:
+Türkiye bu bakımdan çok güzel bir ülke. Ben şöyle anılmak isterim. Avukatlık mesleği başta olmak üzere bütün hukuk mesleklerini verimli ve hesap verir olma yönünde dönüştürmüş. Yargıyı verimli çalışır, hesap verir ve bağımsız hale getirmiş. Böyle yaparak da hukukun üstünlüğünü sağlamış. Türkiye'yi dünyada ilk en gelişmiş 8 ülke arasına taşımış bir Anadolu çocuğu, bir reformist hukukçu olarak anılmak isterim. Şimdi tabii genç yaşta babayı kaybetmek, yoksul bir aileden gelmek ve öğretmenlik derken avukatlığa gitmek.
+
+[24:00 - 24:30]:
+Belki 35 yıl yeriye gitsen her şeyi farklı yapar mıydın diye sorsam yapacak da çok fazla alternatif olmayabilir. Ama bugün mesleğe yeni atılan avukatlara en temel tavsiyeleri ne olur? Benim şeyim yeniden yaşayabilecek olsaydım aynı hayatı yaşamak isterdim. Tek bir şeyim var. Giderdim babama daha çok sarılırdım, onu da çok özlüyorum.
+
+[24:30 - 25:00]:
+Çocuklarımla daha çok zaman geçirmek isterdim ama aynı hayatı yaşamak isterdim. Bence çok güzel, zengin bir hayat yaşadığını düşünüyorum. Baştaki yoksulluklarımdan çok üzülüyordum ama şimdi aslında onları yaşamış olmamın zenginlik olduğunu düşünüyorum. Ben şimdi genç avukatlara bunları yaşamış olan birisi olarak söylemek istediğim şey. Bir kere Türkiye'deyseniz korkmayın, korkmayın, yılmayın, çalışın. Eğer iyi bir şey yapıyorsanız bilin ki memleketin hepsi sizin arkanızda ve başlarınıza yardımcı olmak için hazır.
+
+[25:00 - 25:30]:
+İşte iş mi geliştireceksiniz? Sorun, soruşturun. İş yapacaksanız kurumlaştırarak yapın. Mesela tek başınıza iş yapmayın. İki, üç kişi bir araya gelin, verimsizliklerinizi atın. Hatta aranıza bir işletmeci alın, onu da bir ortak yapın. Sonra kurumlaştırın şeyinizi. Karşınızdaki sizden hizmet bekleyen insanlara, onlara iyi hizmet verebilmek için onları tanıyın, onların işlerini tanıyın, onların bulundukları ortamlara gidin, sorunlarını anlayın.
+
+[25:30 - 26:00]:
+O konulara çözümler getirin, bunlarla görünür olun. Ve asla birisinin kapısına gidip de işinizi bana verin demeyin. Mehmet Gül. İyi ki geldin. Ben bugün çok şey öğrendim senden. Eminim izleyicilerimiz de keyifli vakit geçirmiştir. Efendim, süreç ilsan ettiysek affola. Tecrübe haftaya burada kaldığı yerden konuşmaya devam edecek. Sağlıcakla kalın.
