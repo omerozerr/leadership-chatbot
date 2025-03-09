@@ -1,3 +1,7 @@
+# This function is responsible for merging the transcript files into a single JSON file for each video.
+# transc folder contains the transcript files for each video with time stamps
+# this function will merge the transcript files into a single JSON file and store them in transc_single_jsons folder
+
 import os
 import re
 import json

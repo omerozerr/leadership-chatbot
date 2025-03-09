@@ -57,7 +57,7 @@ def synthesize_speech_sdk(text):
 
 # --- Function to generate a refined search query from the user prompt ---
 def generate_search_query(user_prompt):
-    search_prompt = f"Extract the key search terms from the following question to retrieve relevant transcript content:\n\n{user_prompt}\n\nSearch Query:"
+    search_prompt = f"Extract the key search terms ( must be in turkish ) from the following question to retrieve relevant transcript content:\n\n{user_prompt}\n\nSearch Query:"
     response = client_openai.chat.completions.create(
         model="gpt-4o-mini",
         messages=[
