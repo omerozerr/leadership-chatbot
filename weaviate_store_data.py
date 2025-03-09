@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 
 load_dotenv()  # Loads variables from .env in the project root
 
-# --- Helper function to split text into two parts ---
-def split_text_into_four(text):
+# --- Helper function to split text into eight parts ---
+def split_text_into_eight(text):
     n = 8
     chunk_size = len(text) // n
     parts = []
@@ -27,8 +27,8 @@ headers = {
 
 # Instantiate the client using the Weaviate Cloud URL and API key for admin
 client = weaviate.connect_to_weaviate_cloud(
-    cluster_url=os.getenv("WCD_DEMO_URL"),  # Your Weaviate Cloud URL
-    auth_credentials=Auth.api_key(os.getenv("WCD_DEMO_ADMIN_KEY")),  # Your admin key
+    cluster_url=os.getenv("WCD_DEMO_URL"),
+    auth_credentials=Auth.api_key(os.getenv("WCD_DEMO_ADMIN_KEY")),
     headers=headers,
 )
 client.collections.delete_all()
@@ -64,8 +64,8 @@ for filepath in glob.glob(os.path.join(json_folder, "*.json")):
     # Each JSON is expected to have "video_url" and "text" fields.
     video_url = data.get("video_url", "Unknown")
     text = data.get("text", "No transcript text available.")
-    # Split the transcript text into two parts
-    parts = split_text_into_four(text)
+    # Split the transcript text into eight parts
+    parts = split_text_into_eight(text)
     for part in parts:
         Transcript.data.insert(
             properties={

@@ -132,19 +132,17 @@ for msg in st.session_state["messages"]:
         st.chat_message(msg["role"]).write(msg["content"])
 
 # --- Chat Input and Agent Response ---
-if prompt := st.chat_input("Enter your question here..."):
+if prompt := st.chat_input("Sorunuzu buraya yazın.."):
     # Append user message to conversation history
     st.session_state["messages"].append({"role": "user", "content": prompt})
     st.chat_message("user").write(prompt)
     
-    # --- NEW STEP 1: Generate a refined search query from the user prompt ---
+    # --- STEP 1: Generate a refined search query from the user prompt ---
     search_query = generate_search_query(prompt)
     print("Generated search query:", search_query)
     
-    # --- NEW STEP 2: Perform hybrid search in Weaviate using the search query ---
+    # --- STEP 2: Perform hybrid search in Weaviate using the search query ---
     hybrid_results = weaviate_hybrid_search(search_query, limit =4)
-    # Determine the highest similarity score if available (Weaviate may return a score in metadata)
-    # For simplicity, assume if any objects are returned, we use them.
     retrieved_context = ""
     reference_list = ""
     highest_score = 0

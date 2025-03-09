@@ -56,10 +56,6 @@ os.makedirs("output", exist_ok=True)
 df_segments.to_csv("output/embedded_transcripts.csv", index=False)
 print(f"CSV created with {len(df_segments)} segments.")
 
-#############################################
-# Create embeddings to perform semantic search
-
-
 def get_embedding(text, model="text-embedding-3-small"):
     text = text.replace("\n", " ")
     return client.embeddings.create(input = [text], model=model).data[0].embedding
