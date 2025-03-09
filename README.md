@@ -1,3 +1,13 @@
+## Demo Video and Live App
+
+-   **Demo Video on YouTube:**  
+    Watch the demo video to see a brief walkthrough of the Leadership Coach Chatbot in action.  
+    [![Watch the Demo Video](https://img.youtube.com/vi/ez9Ra2uFikc/0.jpg)](https://www.youtube.com/watch?v=ez9Ra2uFikc)
+
+-   **Live Streamlit App:**  
+    Experience the Leadership Coach Chatbot live by visiting the deployed application:  
+    [Access the Live App](https://omerozer-enocta.streamlit.app/)
+
 # Leadership Coach Chatbot
 
 This project is a practical demonstration for an AI Engineer recruitment process. The goal is to build a specialized AI chatbot – the **Leadership Coach** – that provides refined and context-specific guidance on leadership strategies, professional development, and business acumen. The chatbot achieves this by combining a curated knowledge base derived from a YouTube playlist of leadership interviews with hybrid search capabilities, semantic retrieval, and web search
