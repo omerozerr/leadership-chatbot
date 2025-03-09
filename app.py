@@ -8,7 +8,7 @@ from langchain.agents import initialize_agent, AgentType
 from langchain_community.chat_models import ChatOpenAI
 from langchain_community.tools import DuckDuckGoSearchRun
 from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
-from elevenlabs.client import ElevenLabs  # Official ElevenLabs SDK
+from elevenlabs.client import ElevenLabs
 from elevenlabs import play
 import openai  # For embedding calls
 import pandas as pd
@@ -39,9 +39,6 @@ if not voice_id:
     st.error("ElevenLabs voice ID not found in environment. Please add it to your .env file.")
     st.stop()
 
-# --- Weaviate Client for Hybrid Search ---
-
-
 def synthesize_speech_sdk(text):
     """
     Convert the provided text to speech using the ElevenLabs SDK.
@@ -58,17 +55,7 @@ def synthesize_speech_sdk(text):
         audio = b"".join(list(audio))
     return audio
 
-def get_embedding(text, model="text-embedding-3-small"):
-    """
-    Get the embedding vector for the given text using OpenAI's embeddings API.
-    """
-    cleaned_text = text.replace("\n", " ")
-    response = client_openai.embeddings.create(input=[cleaned_text], model=model)
-    embedding = response.data[0].embedding
-    return np.array(embedding, dtype=np.float32)
-
-
-# --- NEW: Function to generate a refined search query from the user prompt ---
+# --- Function to generate a refined search query from the user prompt ---
 def generate_search_query(user_prompt):
     search_prompt = f"Extract the key search terms from the following question to retrieve relevant transcript content:\n\n{user_prompt}\n\nSearch Query:"
     response = client_openai.chat.completions.create(
@@ -81,13 +68,13 @@ def generate_search_query(user_prompt):
     )
     return response.choices[0].message.content.strip()
 
-# --- NEW: Hybrid search in Weaviate ---
+# --- Hybrid search in Weaviate ---
 def weaviate_hybrid_search(search_query, limit=3):
     # Query the "Transcript" collection in Weaviate using hybrid search.
     # Get the collection
     wv_client = weaviate.connect_to_weaviate_cloud(
-    cluster_url=os.getenv("WCD_DEMO_URL"),  # Your Weaviate Cloud URL
-    auth_credentials=Auth.api_key(os.getenv("WCD_DEMO_ADMIN_KEY")),  # Your admin key
+    cluster_url=os.getenv("WCD_DEMO_URL"),
+    auth_credentials=Auth.api_key(os.getenv("WCD_DEMO_ADMIN_KEY")),
     headers={"X-OpenAI-Api-Key": os.getenv("OPENAI_API_KEY")}
     )
     Transcript = wv_client.collections.get("Transcript")
@@ -102,8 +89,8 @@ def weaviate_hybrid_search(search_query, limit=3):
 # --- Sidebar Setup ---
 with st.sidebar:
     st.markdown("**Leadership Coach Chatbot**")
-    st.markdown("[View the source code](https://github.com/omerozerr/leadership-chatbot)")
-    if st.button("Clear Conversation"):
+    st.markdown("[Kaynak Kodunu incele](https://github.com/omerozerr/leadership-chatbot)")
+    if st.button("Sohbeti Temizle"):
         st.session_state["messages"] = [
             {"role": "system", "content": (
                 "You are a knowledgeable Leadership Coach specializing in leadership "
