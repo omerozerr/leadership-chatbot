@@ -1,7 +1,7 @@
 ## Demo Video and Live App
 
 -   **Demo Video on YouTube:**  
-    Watch the demo video to see a brief walkthrough of the Leadership Coach Chatbot in action.  
+    Watch the demo video to see a brief walkthrough of the Leadership Coach Chatbot
     [Watch the Demo Video](https://www.youtube.com/watch?v=ez9Ra2uFikc)
 
 -   **Live Streamlit App:**  
