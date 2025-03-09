@@ -5,8 +5,7 @@
     [Watch the Demo Video](https://www.youtube.com/watch?v=ez9Ra2uFikc)
 
 -   **Live Streamlit App:**  
-    Experience the Leadership Coach Chatbot live by visiting the deployed application:  
-    [Access the Live App](https://omerozer-enocta.streamlit.app/)
+    Experience the Leadership Coach Chatbot live by visiting the deployed application: [Access the Live App](https://omerozer-enocta.streamlit.app/)
 
 # Leadership Coach Chatbot
 
